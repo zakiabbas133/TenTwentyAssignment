@@ -67,7 +67,6 @@ const MovieDetails: React.FC<Props> = ({ route, navigation }) => {
             v => v.type === 'Trailer' && v.site === 'YouTube'
         ) || response.results[0];
         const youtubeUrl = `https://www.youtube.com/embed/${trailer.key}?autoplay=1`;
-        console.log(youtubeUrl)
         // setVideoSource(youtubeUrl);
         // setLoading(false);
     }
