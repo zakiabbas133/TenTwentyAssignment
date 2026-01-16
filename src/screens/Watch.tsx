@@ -180,9 +180,9 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
     headerTitle: {
-        fontSize: 34,
-        fontWeight: "500",
+        fontSize: 24,
         color: "#202C43",
+        fontFamily: 'Poppins-SemiBold'
     },
     searchBox: {
         backgroundColor: "#f1f1f1",
@@ -194,6 +194,8 @@ const styles = StyleSheet.create({
     searchInput: {
         paddingHorizontal: 16,
         fontSize: 16,
+        fontFamily: 'Poppins-Regular',
+        color: '#000000'
     },
     loaderContainer: {
         flex: 1,
@@ -207,7 +209,6 @@ const styles = StyleSheet.create({
     },
     emptyText: {
         fontSize: 16,
-        fontWeight: "700",
     },
     toggleContainer: {
         flexDirection: "row",
@@ -218,7 +219,7 @@ const styles = StyleSheet.create({
     },
     movieCount: {
         fontSize: 16,
-        fontWeight: "500",
+        fontFamily: 'Poppins-Medium'
     },
     toggleButtons: {
         flexDirection: "row",

@@ -187,15 +187,15 @@ const styles = StyleSheet.create({
     headerTitleText: {
         color: "#202C43",
         fontSize: 16,
-        fontWeight: "500",
         textAlign: "center",
+        fontFamily: 'Poppins-SemiBold'
     },
     headerSubtitleText: {
         color: "#61C3F2",
         fontSize: 12,
-        fontWeight: "500",
         textAlign: "center",
         marginTop: 3,
+        fontFamily: 'Poppins-SemiBold'
     },
     scrollContent: {
         flexGrow: 1,
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
         textAlign: "center",
         color: "#8F8F8F",
         fontSize: 8,
-        fontWeight: "500",
+        fontFamily: 'Poppins-SemiBold'
     },
     seatsContainer: {
         paddingTop: 40,
@@ -280,8 +280,8 @@ const styles = StyleSheet.create({
     legendText: {
         color: "#8F8F8F",
         fontSize: 12,
-        fontWeight: "500",
         marginLeft: 10,
+        fontFamily: 'Poppins-SemiBold'
     },
     selectedSeatContainer: {
         flexDirection: "row",
@@ -294,11 +294,13 @@ const styles = StyleSheet.create({
     },
     selectedSeatNumber: {
         color: "#202C43",
+        fontFamily: 'Poppins-SemiBold'
     },
     selectedSeatRow: {
         color: "#202C43",
         fontSize: 10,
         marginLeft: 5,
+        fontFamily: 'Poppins-Regular'
     },
     selectedSeatCloseIcon: {
         marginLeft: 20,
@@ -318,11 +320,12 @@ const styles = StyleSheet.create({
     totalPriceLabel: {
         color: "#202C43",
         fontSize: 10,
+        fontFamily: 'Poppins-Regular'
     },
     totalPriceAmount: {
         color: "#202C43",
         fontSize: 16,
-        fontWeight: "600",
+        fontFamily: 'Poppins-SemiBold'
     },
     proceedButton: {
         flex: 1,
@@ -333,7 +336,7 @@ const styles = StyleSheet.create({
     },
     proceedButtonText: {
         color: "#FFFFFF",
-        fontWeight: "600",
         textAlign: "center",
+        fontFamily: 'Poppins-SemiBold'
     },
 });

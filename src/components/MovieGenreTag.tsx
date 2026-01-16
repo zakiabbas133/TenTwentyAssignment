@@ -18,11 +18,12 @@ export default MovieGenreTag;
 const styles = StyleSheet.create({
     genreTag: {
         borderRadius: 99,
-        marginLeft: 5,
+        marginLeft: 5
     },
     genreText: {
         color: "#FFFFFF",
         paddingVertical: 5,
         paddingHorizontal: 10,
+        fontFamily: 'Poppins-SemiBold'
     },
 });

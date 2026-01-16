@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     },
     primaryText: {
         textAlign: 'center',
-        color: '#000000'
+        color: '#000000',
+        fontFamily: 'Poppins-Bold'
     }
 });

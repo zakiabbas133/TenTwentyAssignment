@@ -17,7 +17,7 @@ const MediaLibrary: React.FC = () => {
                     { paddingTop: insets.top } as ViewStyle,
                 ]}
             >
-                <Text style={styles.primaryText}>This is MediaLibrary</Text>
+                <Text style={styles.primaryText}>This is Media Library</Text>
             </ScrollView>
         </KeyboardAvoidingView>
     );
@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     },
     primaryText: {
         textAlign: 'center',
-        color: '#000000'
+        color: '#000000',
+        fontFamily: 'Poppins-Bold'
     }
 });

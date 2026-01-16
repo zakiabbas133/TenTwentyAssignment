@@ -54,12 +54,12 @@ export default TicketTimeSlot;
 const styles = StyleSheet.create({
     timeLabel: {
         fontSize: 12,
-        fontWeight: "500",
         color: "#202C43",
+        fontFamily: 'Poppins-SemiBold'
     },
     timeVenueText: {
         color: "#8F8F8F",
-        fontWeight: "400",
+        fontFamily: 'Poppins-Regular'
     },
     theatreButton: {
         marginTop: 10,
@@ -74,11 +74,11 @@ const styles = StyleSheet.create({
     priceText: {
         marginTop: 20,
         color: "#8F8F8F",
-        fontWeight: "400",
         fontSize: 12,
+        fontFamily: 'Poppins-Regular'
     },
     priceHighlight: {
-        fontWeight: "500",
         color: "#202C43",
+        fontFamily: 'Poppins-SemiBold'
     },
 });

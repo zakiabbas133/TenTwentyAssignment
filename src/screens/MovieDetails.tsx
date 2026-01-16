@@ -114,8 +114,8 @@ const styles = StyleSheet.create({
     backButtonText: {
         color: "#FFFFFF",
         fontSize: 16,
-        fontWeight: "500",
         marginLeft: 20,
+        fontFamily: 'Poppins-SemiBold'
     },
     detailsContainer: {
         flex: 1,
@@ -127,9 +127,9 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
         textAlign: "center",
         fontSize: 16,
-        fontWeight: "500",
         position: "relative",
         zIndex: 9,
+        fontFamily: 'Poppins-SemiBold'
     },
     getTicketsButton: {
         backgroundColor: "#61C3F2",
@@ -142,9 +142,9 @@ const styles = StyleSheet.create({
         zIndex: 9,
     },
     getTicketsButtonText: {
-        fontWeight: "600",
         color: "#FFFFFF",
         textAlign: "center",
+        fontFamily: 'Poppins-SemiBold'
     },
     watchTrailerButton: {
         borderColor: "#61C3F2",
@@ -156,16 +156,17 @@ const styles = StyleSheet.create({
         alignItems: "center",
         position: "relative",
         zIndex: 9,
+        fontFamily: 'Poppins-SemiBold'
     },
     watchTrailerContent: {
         flexDirection: "row",
         alignItems: "center",
     },
     watchTrailerText: {
-        fontWeight: "600",
         color: "#FFFFFF",
         textAlign: "center",
         marginLeft: 10,
+        fontFamily: 'Poppins-SemiBold'
     },
     gradient: {
         position: "absolute",
@@ -182,17 +183,17 @@ const styles = StyleSheet.create({
     },
     sectionTitle: {
         fontSize: 16,
-        fontWeight: "500",
         color: "#202C43",
-        marginTop: 20
+        marginTop: 20,
+        fontFamily: 'Poppins-SemiBold'
     },
     genresContainer: {
         marginTop: 20,
     },
     overviewText: {
         fontSize: 16,
-        fontWeight: "500",
         color: "#8F8F8F",
         marginTop: 20,
+        fontFamily: 'Poppins-Regular'
     },
 });

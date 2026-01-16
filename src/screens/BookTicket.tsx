@@ -131,23 +131,23 @@ const styles = StyleSheet.create({
     headerTitleText: {
         color: "#202C43",
         fontSize: 16,
-        fontWeight: "500",
         textAlign: "center",
+        fontFamily: 'Poppins-SemiBold'
     },
     headerSubtitleText: {
         color: "#61C3F2",
         fontSize: 12,
-        fontWeight: "500",
         textAlign: "center",
         marginTop: 3,
+        fontFamily: 'Poppins-SemiBold'
     },
     contentContainer: {
         padding: 20,
     },
     sectionTitle: {
         fontSize: 16,
-        fontWeight: "500",
         color: "#202C43",
+        fontFamily: 'Poppins-SemiBold'
     },
     horizontalScrollContainer: {
         marginTop: 20,
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     },
     dateButtonText: {
         fontSize: 12,
-        fontWeight: "600",
+        fontFamily: 'Poppins-Medium'
     },
     footerContainer: {
         paddingHorizontal: 20,
@@ -176,7 +176,6 @@ const styles = StyleSheet.create({
     },
     selectSeatsButtonText: {
         color: "#FFFFFF",
-        fontWeight: "600",
         textAlign: "center",
     },
 });

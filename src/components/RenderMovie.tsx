@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     movieTitle: {
         color: '#fff',
         fontSize: 18,
-        fontWeight: '600'
+        fontFamily: 'Poppins-SemiBold'
     },
 });
 
