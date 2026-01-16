@@ -18,10 +18,47 @@ export interface DiscoverMoviesResponse {
     total_results: number;
 }
 
+export interface MovieVideo {
+    id: string;
+    key: string;           // YouTube / Vimeo key
+    name: string;
+    site: 'YouTube' | 'Vimeo';
+    size: number;
+    type: 'Trailer' | 'Teaser' | 'Clip' | 'Featurette';
+    official: boolean;
+    published_at: string;
+}
+
+export interface MovieVideosResponse {
+    id: number;
+    results: MovieVideo[];
+}
+
 export const getPopularMovies = async (
     page: number = 1
 ): Promise<DiscoverMoviesResponse> => {
     const url = `${BASE_URL}/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`;
+
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            Authorization: `Bearer ${TMDB_TOKEN}`,
+            accept: 'application/json',
+        },
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`TMDB Error (${response.status}): ${errorText}`);
+    }
+
+    return response.json();
+};
+
+export const getMovieVideos = async (
+    movieId: number
+): Promise<MovieVideosResponse> => {
+    const url = `${BASE_URL}/movie/${movieId}/videos?language=en-US`;
 
     const response = await fetch(url, {
         method: 'GET',
