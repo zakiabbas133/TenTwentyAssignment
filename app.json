@@ -20,10 +20,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.zakiabbas13.TenTwentyAssignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "apiKey": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YmU5YTFiNmY4NGMzMTIwOTk0ODk4YzU2ZDQxNTExNCIsIm5iZiI6MTc2ODQ5MDk5Ni43NTcsInN1YiI6IjY5NjkwN2Y0NDU4MmU3ZDkxOTIzNmJkNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FK-8XyrDMmK5t9cXnZoLxTUfbZOpIC_152rCSz8O-JE",
+      "eas": {
+        "projectId": "83d8e970-6c6e-428b-a951-0cd61e78fdbf"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
